@@ -7,7 +7,7 @@ Welcome to our culinary exploration, where data meets deliciousness! Our dataset
 
 2. **Interactions**: A record of user engagements with the recipes, including ratings and reviews that reflect personal experiences and satisfaction
 
-The central question of our project is **"What factors contribute to a recipe's popularity?"** This query is essential because understanding these factors can empower anyone to create recipes that resonate with a wider audience and elevate the cooking experience.:monocle_face:
+The central question of our project is **"What factors contribute to a recipe's popularity?"** This query is essential because understanding these factors can empower anyone to create recipes that resonate with a wider audience and elevate the cooking experience.🥘
 
 ### Dataset Composition and Relevant Columns
 Our dataset features a rich tapestry of *83,782* recipes and a whopping *731,927* user interactions. For the purpose of our investigation, we're stirring our focus into the following columns:
