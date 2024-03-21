@@ -136,3 +136,5 @@ RMSE are standard for measuring the performance of regression models as they pro
   2. P-value: *0.0*
 
 - **Conclusion**: Given the p-value is 0.0, which is less than the typical alpha level of 0.05, we reject the null hypothesis. This result suggests that there is a statistically significant difference in RMSE between recipes with preparation times below or equal to 60 minutes and those with preparation times above 60 minutes. Therefore, preparation time might be an influential factor in predicting recipe ratings.
+
+- ![Permutation Test Plot](https://Rika-Li.github.io/Recipes-and-Ratings/Preparation Times.html)
