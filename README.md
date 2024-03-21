@@ -1,6 +1,6 @@
 # Recipes-and-Ratings
 
-##Introduction
+## Introduction
 Data Cleaning and Exploratory Data Analysis
 Assessment of Missingness
 Hypothesis Testing
