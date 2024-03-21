@@ -1,7 +1,7 @@
 # Recipes-and-Ratings
 by Suraj Rampure (rampure@ucsd.edu)
 ## Introduction
-### Exploring these datasets illuminates the patterns that drive cooking passions and informs potential improvements for recipe development and sharing platforms. Whether you're a foodie, a chef, or an entrepreneur in the food industry, the insights derived here can enhance your culinary creations, palate, or business strategy.
+Exploring these datasets illuminates the patterns that drive cooking passions and informs potential improvements for recipe development and sharing platforms. Whether you're a foodie, a chef, or an entrepreneur in the food industry, the insights derived here can enhance your culinary creations, palate, or business strategy.
 ## Data Cleaning and Exploratory Data Analysis
 ## Assessment of Missingness
 ## Hypothesis Testing
