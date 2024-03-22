@@ -1,4 +1,4 @@
-# Recipes-and-Ratings
+# How to make your recipes more popular
 by Kening Li
 ## Introduction
 Welcome to our culinary exploration, where data meets deliciousness! Our dataset is a flavorful blend of recipes and user interactions that offer a window into the world of home cooking. It consists of two main parts:
@@ -105,6 +105,32 @@ Below is a preview of the cleaned dataset, which will be used for subsequent ana
 
 
 ## Assessment of Missingness
+In our dataset, we hypothesize that the column 'rating' may be NMAR. This hypothesis stems from the observation that a significant number of ratings are missing, and it's plausible to assume that the missingness of ratings is related to the intrinsic quality of the recipe. For example, users may choose not to rate recipes that they did not find appealing, and these unappealing aspects of the recipe may not be captured by the other variables in our dataset.
+
+We conducted permutation tests to examine the missingness mechanism of the 'rating' column. We compared the distribution of the 1. `n_steps` and 2. `protein` column for recipes with and without a rating, using the **Kolmogorov-Smirnov** statistic as our test statistic.
+
+- `n_steps` Test Result
+  1.  Observed KS statistic: `0.048050754819474961`
+  2.  p-value from permutation test: `0.0`
+     
+The p-value suggests that is a statistically significant difference to reject the null hypothesis of the missingness being at random with respect to the number of number of steps in a recipe.
+
+
+- `protein` Test result
+  1.  Observed KS statistic: `0.012859999187318671`
+  2.  p-value from permutation test: `0.072`
+
+The p-value suggests that we do not have enough evidence to reject the null hypothesis of the missingness being at random with respect to the number of protein in a recipe.
+
+
+
+
+
+
+
+
+
+
 ## Hypothesis Testing
 ## Framing a Prediction Problem
 - **Prediction Problem**:
