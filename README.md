@@ -206,6 +206,8 @@ Three models was used to train data:
   - Mean Squared Error (MSE): 0.7599658743963008
   - Root Mean Squared Error (RMSE): 0.8717602611123784
 
+I used ColumnTransformer with StandardScaler in the pipeline to perform standardization on numerical features.
+
 Within the three models, the Random Forest Regressor had the highest MSE and RMSE, while the Linear Regression and Gradient Boosting Regressor had significantly lower errors, indicating better performance.
 
 Considering the performance metrics, the current model seems to have a good predictive ability, particularly the Linear Regression and Gradient Boosting Regressor models, which have similar MSE and RMSE values. 
