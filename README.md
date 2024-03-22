@@ -114,14 +114,13 @@ This scatter plot shows the relationship between the calorie content and protein
 
 The grouped table below presents the mean rating for recipes, categorized by the number of calories and amount of sugar they contain. This table helps us understand how the nutritional content of recipes correlates with user ratings. For instance, we can observe that recipes with fewer calories and sugar do not necessarily receive higher ratings, challenging the assumption that healthier recipes are rated more favorably.
 
-|         | calories | sugar   | rating   |
-|---------|----------|---------|----------|
-| 0       | 0.0      | 0.0     | 4.242424 |
-| 1       | 0.1      | 0.0     | 4.500000 |
-| 2       | 0.2      | 0.0     | 5.000000 |
-| ...     | ...      | ...     |   ...    |
-| 76549   | 36188.8  | 30260.0 | 5.000000 |
-| 76550   | 45609.0  | 16901.0 | 5.000000 |
+|   calories |   sugar |   rating |
+|-----------:|--------:|---------:|
+|        0   |       0 |  4.24242 |
+|        0.1 |       0 |  4.5     |
+|        0.2 |       0 |  5       |
+|        0.3 |       0 |  4.23077 |
+|        0.4 |       0 |  4.66667 |
 
 
 
