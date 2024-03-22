@@ -78,6 +78,15 @@ This section delves into the steps we undertook to polish the raw data into a gl
    merged_df_final = pd.concat([final_nutrition_df, merged_df[selected_column]], axis=1)
    merged_df_final.head()
    ```
+
+|   calories |   total_fat |   sugar |   sodium |   protein |   saturated_fat |   carbohydrates |
+|-----------:|------------:|--------:|---------:|----------:|----------------:|----------------:|
+|      138.4 |          10 |      50 |        3 |         3 |              19 |               6 |
+|      595.1 |          46 |     211 |       22 |        13 |              51 |              26 |
+|      194.8 |          20 |       6 |       32 |        22 |              36 |               3 |
+|      194.8 |          20 |       6 |       32 |        22 |              36 |               3 |
+|      194.8 |          20 |       6 |       32 |        22 |              36 |               3 |
+
 4. **Remove Outliers (base on z-score)**
    ```python
    # Define function to remove outliers based on z-score
