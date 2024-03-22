@@ -103,11 +103,25 @@ This section delves into the steps we undertook to polish the raw data into a gl
 *Univariate Analyses*
 - Distribution of Ingredients
 The histogram for the number of ingredients shows a normal-like distribution, with most recipes requiring a moderate number of ingredients.
+<iframe
+  src="assets/Distribution of Ingredients.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 
 
 *Bivariate Analyses*
 - Calories vs Protein
 This scatter plot shows the relationship between the calorie content and protein content of recipes. We observe that higher calorie counts do not necessarily correspond to higher protein values, indicating that calorie-dense recipes may not always be protein-rich.
+
+<iframe
+  src="assets/Calories vs Protein.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 *Group Table/Pivot Table*
