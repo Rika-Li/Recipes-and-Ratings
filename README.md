@@ -148,9 +148,16 @@ The p-value suggests that is a statistically significant difference to reject th
 
 - `protein` Test result
   1.  Observed KS statistic: `0.012859999187318671`
-  2.  p-value from permutation test: `0.072`
+  2.  p-value from permutation test: `0.052`
 
 The p-value suggests that we do not have enough evidence to reject the null hypothesis of the missingness being at random with respect to the number of protein in a recipe.
+
+<iframe
+  src="assets/Missing Rating and Protein.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 
@@ -171,11 +178,10 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 - Significance level (α): 0.05
 
 ### Results and Conclusion
-- Observed p-value: (insert p-value here)
+- Observed p-value: *0.09675951132243926*
 - Result: With a p-value of (insert p-value here), we (accept/reject) the null hypothesis at the 0.05 significance level.
 
 *Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between food name that contains brownies and food name that contains chocolate.
-
 
 
 
@@ -234,7 +240,7 @@ However, there's still room for improvement.
 
 **Features Added**: Add all of the nutritions: not only `calories` and `sugar`, but also `total_fat`, `sodium`, `protein`, `saturated_fat`, `carbohydrates` and one of the categorical data `n_steps` (step >10 considered as 1, step <10 as 0) for the final model.
 
-**Why?** Because
+**Why?** As we 
 
 **Modeling Algorithm**: The chosen algorithm for the final model is the **Gradient Boosting Regressor**, which showed a good predvtive ability on our data based on the baseline model.
 
@@ -261,7 +267,7 @@ However, there's still room for improvement.
   1. Observed difference in RMSE: *0.0201943171512441*
   2. P-value: *0.0*
 
-- **Conclusion**: Given the p-value is 0.0, which is less than the typical alpha level of 0.05, we reject the null hypothesis. This result suggests that there is a statistically significant difference in RMSE between recipes with preparation times below or equal to 60 minutes and those with preparation times above 60 minutes. Therefore, preparation time might be an influential factor in predicting recipe ratings.
+- **Conclusion**: Given the p-value is `0.0`, which is less than the typical alpha level of **0.05**, we reject the null hypothesis. This result suggests that there is a statistically significant difference in RMSE between recipes with preparation times below or equal to 60 minutes and those with preparation times above 60 minutes. Therefore, preparation time might be an influential factor in predicting recipe ratings.
 
 <iframe
   src="assets/Preparation Times.html"
