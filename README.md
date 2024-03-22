@@ -169,16 +169,6 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 *Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between food name that contains brownies and food name that contains chocolate.
 
 
-### Visualization
-Below is a visualization of the sodium content distribution for both types of cookies:
-
-![Sodium Content Distribution]([/path/to/your/sodium_content_visualization.png](https://github.com/Rika-Li/Recipes-and-Ratings/blob/main/assets/Missing%20Rating%20and%20Steps.html))
-
-
-
-
-
-
 
 
 
@@ -194,15 +184,34 @@ Regression
 
 - **Response Variable**:
 Rating of the recipe
-Because we want to improve our recipes to make it more popular!🍾
+Because we want to improve our recipes to make them more popular!🍾
 
 - **Metric**:
 RMSE
-RMSE are standard for measuring the performance of regression models as they provide an average measure of error across predictions.
+RMSE is standard for measuring the performance of regression models as it provides an average measure of error across predictions.
 
 
 ## Baseline Model
+
+
+
+
+
+
+
+
+
 ## Final Model
+
+
+
+
+
+
+
+
+
+
 ## Fairness Analysis
 - **Group X**: Recipes with preparation time below or equal to 60 minutes.
 - **Group Y**: Recipes with preparation time above 60 minutes.
