@@ -197,6 +197,13 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 
 *Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between recipes that contain brownies and recipes that contains chocolate.
 
+<iframe
+  src="assets/Sugar Content in Bronies vs. Chocolate Desserts.html"
+  width="700"
+  height="600"
+  frameborder="0"
+></iframe>
+
 
 
 
