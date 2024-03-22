@@ -116,7 +116,7 @@ We conducted permutation tests to examine the missingness mechanism of the 'rati
 The p-value suggests that is a statistically significant difference to reject the null hypothesis of the missingness being at random with respect to the number of number of steps in a recipe.
 
 <iframe
-  src="assets/Missing Rating and Steps.html"](https://github.com/Rika-Li/Recipes-and-Ratings/blob/main/assets/Missing%20Rating%20and%20Steps.html)
+  src="assets/Missing Rating and Steps.html"
   width="800"
   height="600"
   frameborder="0"
