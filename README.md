@@ -105,8 +105,8 @@ This section delves into the steps we undertook to polish the raw data into a gl
 The histogram for the number of ingredients shows a normal-like distribution, with most recipes requiring a moderate number of ingredients.
 <iframe
   src="assets/Distribution of Ingredients.html"
-  width="800"
-  height="600"
+  width="600"
+  height="375"
   frameborder="0"
 ></iframe>
 
@@ -118,8 +118,8 @@ This scatter plot shows the relationship between the calorie content and protein
 
 <iframe
   src="assets/Calories vs Protein.html"
-  width="800"
-  height="600"
+  width="600"
+  height="375"
   frameborder="0"
 ></iframe>
 
@@ -154,8 +154,8 @@ The p-value suggests that is a statistically significant difference to reject th
 
 <iframe
   src="assets/Missing Rating and Steps.html"
-  width="800"
-  height="600"
+  width="600"
+  height="375"
   frameborder="0"
 ></iframe>
 
@@ -168,8 +168,8 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 
 <iframe
   src="assets/Missing Rating and Protein.html"
-  width="800"
-  height="600"
+  width="600"
+  height="375"
   frameborder="0"
 ></iframe>
 
