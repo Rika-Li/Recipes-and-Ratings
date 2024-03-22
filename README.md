@@ -115,6 +115,13 @@ We conducted permutation tests to examine the missingness mechanism of the 'rati
      
 The p-value suggests that is a statistically significant difference to reject the null hypothesis of the missingness being at random with respect to the number of number of steps in a recipe.
 
+<iframe
+  src="assets/Missing Rating and Steps.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 
 - `protein` Test result
   1.  Observed KS statistic: `0.012859999187318671`
