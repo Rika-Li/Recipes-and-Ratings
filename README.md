@@ -193,6 +193,26 @@ RMSE is standard for measuring the performance of regression models as it provid
 
 ## Baseline Model
 
+**features**: `calories`, `sugar` (Both of them are quantitative)
+
+Three models was used to train data:
+- Random Forest Regressor:
+  - Mean Squared Error (MSE): 1.0674807515332745
+  - Root Mean Squared Error (RMSE): 1.0331896090960673
+- Gradient Boosting Regressor:
+  - Mean Squared Error (MSE): 0.7608854079700182
+  - Root Mean Squared Error (RMSE): 0.8722874571894395
+- Linear Regression:
+  - Mean Squared Error (MSE): 0.7599658743963008
+  - Root Mean Squared Error (RMSE): 0.8717602611123784
+
+Within the three models, the Random Forest Regressor had the highest MSE and RMSE, while the Linear Regression and Gradient Boosting Regressor had significantly lower errors, indicating better performance.
+
+
+I used three kinds of model
+
+The current model utilizes a mix of quantitative and categorical features. The specific feature types are as follows:
+- Quantitative: Calories, Sugar
 
 
 
