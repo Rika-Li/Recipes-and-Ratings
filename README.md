@@ -208,10 +208,9 @@ Three models was used to train data:
 
 Within the three models, the Random Forest Regressor had the highest MSE and RMSE, while the Linear Regression and Gradient Boosting Regressor had significantly lower errors, indicating better performance.
 
+Considering the performance metrics, the current model seems to have a good predictive ability, particularly the Linear Regression and Gradient Boosting Regressor models, which have similar MSE and RMSE values. 
 
-
-
-
+However, there's still room for improvement.
 
 
 
