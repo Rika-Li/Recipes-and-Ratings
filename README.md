@@ -172,15 +172,8 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 ### Visualization
 Below is a visualization of the sodium content distribution for both types of cookies:
 
-![Sodium Content Distribution](/path/to/your/sodium_content_visualization.png)
+![Sodium Content Distribution]([/path/to/your/sodium_content_visualization.png](https://github.com/Rika-Li/Recipes-and-Ratings/blob/main/assets/Missing%20Rating%20and%20Steps.html))
 
-*Please replace `/path/to/your/sodium_content_visualization.png` with the actual path to the image file in your GitHub repository.*
-
-Remember, statistical tests are probabilistic in nature, and while our results are significant, they do not absolutely prove the alternative hypothesis; they simply provide evidence to support it.
-
----
-
-Note: To embed an interactive visualization from Plotly, ensure it's hosted on a web service like GitHub Pages and use the direct URL to the Plotly HTML file if your project setup supports this.
 
 
 
