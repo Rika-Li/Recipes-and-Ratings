@@ -155,6 +155,32 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 
 ## Hypothesis Testing
 
+- Null Hypothesis (H0): The sugar content of food name that contains brownies is the same as the sugar content of food name that contains chocolate.
+- Alternative Hypothesis (H1): The sugar content of food name that contains brownies is different from the sugar content of food name that contains chocolate.
+
+
+- Test statistic used: Two-sample t-test
+- Significance level (α): 0.05
+
+### Results and Conclusion
+- Observed p-value: (insert p-value here)
+- Result: With a p-value of (insert p-value here), we (accept/reject) the null hypothesis at the 0.05 significance level.
+
+*Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between food name that contains brownies and food name that contains chocolate.
+
+
+### Visualization
+Below is a visualization of the sodium content distribution for both types of cookies:
+
+![Sodium Content Distribution](/path/to/your/sodium_content_visualization.png)
+
+*Please replace `/path/to/your/sodium_content_visualization.png` with the actual path to the image file in your GitHub repository.*
+
+Remember, statistical tests are probabilistic in nature, and while our results are significant, they do not absolutely prove the alternative hypothesis; they simply provide evidence to support it.
+
+---
+
+Note: To embed an interactive visualization from Plotly, ensure it's hosted on a web service like GitHub Pages and use the direct URL to the Plotly HTML file if your project setup supports this.
 
 
 
