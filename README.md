@@ -1,5 +1,5 @@
 # How to make your recipes more popular
-by Kening Li
+by **Kening Li** *(kel016@ucsd.edu)*
 ## Introduction
 Welcome to our culinary exploration, where data meets deliciousness! Our dataset is a flavorful blend of recipes and user interactions that offer a window into the world of home cooking. It consists of two main parts:
 
