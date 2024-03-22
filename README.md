@@ -209,12 +209,6 @@ Three models was used to train data:
 Within the three models, the Random Forest Regressor had the highest MSE and RMSE, while the Linear Regression and Gradient Boosting Regressor had significantly lower errors, indicating better performance.
 
 
-I used three kinds of model
-
-The current model utilizes a mix of quantitative and categorical features. The specific feature types are as follows:
-- Quantitative: Calories, Sugar
-
-
 
 
 
