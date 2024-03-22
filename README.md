@@ -101,22 +101,19 @@ The histogram for the number of ingredients shows a normal-like distribution, wi
 This scatter plot shows the relationship between the calorie content and protein content of recipes. We observe that higher calorie counts do not necessarily correspond to higher protein values, indicating that calorie-dense recipes may not always be protein-rich.
 
 
-*Pivot Table*
+*Group Table/Pivot Table*
 
-The pivot table aggregates the data to show the average ratings with a more refined categorization based on calories and sugar. It allows for a quick comparison across different nutritional content levels, highlighting potential trends or outliers in how users rate recipes according to their calorie and sugar content.
-| calories | sugar  | rating   |
-|----------|--------|----------|
-| 0.0      | 0.0    | 4.242424 |
-| 0.1      | 0.0    | 4.500000 |
-| 0.2      | 0.0    | 5.000000 |
-| 0.3      | 0.0    | 4.230769 |
-| 0.4      | 0.0    | 4.666667 |
-| ...      | ...    |   ...    |
-| 22371.2  | 884.0  | 5.000000 |
-| 26604.4  | 13573.0| 5.000000 |
-| 28930.2  | 9245.0 | 5.000000 |
-| 36188.8  | 30260.0| 5.000000 |
-| 45609.0  | 16901.0| 5.000000 |
+The grouped table below presents the mean rating for recipes, categorized by the number of calories and amount of sugar they contain. This table helps us understand how the nutritional content of recipes correlates with user ratings. For instance, we can observe that recipes with fewer calories and sugar do not necessarily receive higher ratings, challenging the assumption that healthier recipes are rated more favorably.
+
+|         | calories | sugar   | rating   |
+|---------|----------|---------|----------|
+| 0       | 0.0      | 0.0     | 4.242424 |
+| 1       | 0.1      | 0.0     | 4.500000 |
+| 2       | 0.2      | 0.0     | 5.000000 |
+| ...     | ...      | ...     |   ...    |
+| 76549   | 36188.8  | 30260.0 | 5.000000 |
+| 76550   | 45609.0  | 16901.0 | 5.000000 |
+
 
 
 
