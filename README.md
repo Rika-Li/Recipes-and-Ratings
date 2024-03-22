@@ -100,7 +100,7 @@ This section delves into the steps we undertook to polish the raw data into a gl
         filtered_data = remove_outliers_zscore(filtered_data, col)
    ```
 
-*Univariate Analyses*
+### Univariate Analyses*
 - Distribution of Ingredients
 The histogram for the number of ingredients shows a normal-like distribution, with most recipes requiring a moderate number of ingredients.
 <iframe
@@ -112,7 +112,7 @@ The histogram for the number of ingredients shows a normal-like distribution, wi
 
 
 
-*Bivariate Analyses*
+### Bivariate Analyses*
 - Calories vs Protein
 This scatter plot shows the relationship between the calorie content and protein content of recipes. We observe that higher calorie counts do not necessarily correspond to higher protein values, indicating that calorie-dense recipes may not always be protein-rich.
 
@@ -124,7 +124,7 @@ This scatter plot shows the relationship between the calorie content and protein
 ></iframe>
 
 
-*Group Table/Pivot Table*
+### Group Table/Pivot Table*
 
 The grouped table below presents the mean rating for recipes, categorized by the number of calories and amount of sugar they contain. This table helps us understand how the nutritional content of recipes correlates with user ratings. For instance, we can observe that recipes with fewer calories and sugar do not necessarily receive higher ratings, challenging the assumption that healthier recipes are rated more favorably.
 
