@@ -91,12 +91,41 @@ This section delves into the steps we undertook to polish the raw data into a gl
         filtered_data = remove_outliers_zscore(filtered_data, col)
    ```
 
+*Univariate Analyses*
+- Distribution of Ingredients
+The histogram for the number of ingredients shows a normal-like distribution, with most recipes requiring a moderate number of ingredients.
+
+
+*Bivariate Analyses*
+- Calories vs Protein
+This scatter plot shows the relationship between the calorie content and protein content of recipes. We observe that higher calorie counts do not necessarily correspond to higher protein values, indicating that calorie-dense recipes may not always be protein-rich.
+
+
+*Pivot Table*
+
+The pivot table aggregates the data to show the average ratings with a more refined categorization based on calories and sugar. It allows for a quick comparison across different nutritional content levels, highlighting potential trends or outliers in how users rate recipes according to their calorie and sugar content.
+| calories | sugar  | rating   |
+|----------|--------|----------|
+| 0.0      | 0.0    | 4.242424 |
+| 0.1      | 0.0    | 4.500000 |
+| 0.2      | 0.0    | 5.000000 |
+| 0.3      | 0.0    | 4.230769 |
+| 0.4      | 0.0    | 4.666667 |
+| ...      | ...    |   ...    |
+| 22371.2  | 884.0  | 5.000000 |
+| 26604.4  | 13573.0| 5.000000 |
+| 28930.2  | 9245.0 | 5.000000 |
+| 36188.8  | 30260.0| 5.000000 |
+| 45609.0  | 16901.0| 5.000000 |
+
+
+
 
 
 ## Assessment of Missingness
 In our dataset, we hypothesize that the column 'rating' may be NMAR. This hypothesis stems from the observation that a significant number of ratings are missing, and it's plausible to assume that the missingness of ratings is related to the intrinsic quality of the recipe. For example, users may choose not to rate recipes that they did not find appealing, and these unappealing aspects of the recipe may not be captured by the other variables in our dataset.
 
-We conducted permutation tests to examine the missingness mechanism of the 'rating' column. We compared the distribution of the 1. `n_steps` and 2. `protein` column for recipes with and without a rating, using the **Kolmogorov-Smirnov** statistic as our test statistic.
+We conducted permutation tests to examine the missingness mechanism of the 'rating' column. We compared the distribution of the 1. `n_steps` and 2. `protein` columns for recipes with and without a rating, using the **Kolmogorov-Smirnov** statistic as our test statistic.
 
 - `n_steps` Test Result
   1.  Observed KS statistic: `0.048050754819474961`
@@ -128,6 +157,18 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 
 
 ## Hypothesis Testing
+
+
+
+
+
+
+
+
+
+
+
+
 ## Framing a Prediction Problem
 - **Prediction Problem**:
 Given the nutritional information (calories, total fat, sugar, sodium, protein, saturated fat, carbohydrates) and preparation details (minutes, n_steps, n_ingredients), predict the rating of the recipe.
