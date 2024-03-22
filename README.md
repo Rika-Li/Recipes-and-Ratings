@@ -193,12 +193,9 @@ The p-value suggests that we do not have enough evidence to reject the null hypo
 
 ### Results and Conclusion
 - Observed p-value: *0.09675951132243926*
-- Result: With a p-value of (insert p-value here), we (accept/reject) the null hypothesis at the 0.05 significance level.
+- Result: With a p-value of 0.09675951132243926(greater than 0.05), we fail to reject the null hypothesis that there is a difference in the sugar content between recipes that contain brownies and recipes that contains chocolate.
 
-*Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between food name that contains brownies and food name that contains chocolate.
-
-
-
+*Interpretation*: Given the p-value is greater than our α level of 0.05, we have insufficient evidence to suggest that there is a difference in the sugar content between recipes that contain brownies and recipes that contains chocolate.
 
 
 
@@ -254,7 +251,7 @@ However, there's still room for improvement.
 
 **Features Added**: Add all of the nutritions: not only `calories` and `sugar`, but also `total_fat`, `sodium`, `protein`, `saturated_fat`, `carbohydrates` and one of the categorical data `n_steps` (step >10 considered as 1, step <10 as 0) for the final model.
 
-**Why?** As we 
+**Why?** As we examine MAR and NMAR in the previous section, we conclude that the missing rating value may be influenced by the column `n_steps`. Also, we try to figure out if nutritions other than `calories` and `sugar` also play parts in affecting the rating.
 
 **Modeling Algorithm**: The chosen algorithm for the final model is the **Gradient Boosting Regressor**, which showed a good predvtive ability on our data based on the baseline model.
 
@@ -267,7 +264,6 @@ However, there's still room for improvement.
 **Final Model’s performance**
 - The mean MSE across all folds was 0.7644140249353026, which performs almost the same as our best performed baseline model.
 - The standard deviation of MSE is 0.008431741545314954, indicating relatively low variability.
-
 
 
 ## Fairness Analysis
