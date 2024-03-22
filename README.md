@@ -226,12 +226,27 @@ However, there's still room for improvement.
 
 ## Final Model
 
+- Best hyperparameters: {'gb__learning_rate': 0.01, 'gb__max_depth': 3, 'gb__n_estimators': 200}
+- Mean Squared Error on test set: 0.7586199258826435
+- MSE scores for each fold are: [0.7775671  0.75371931 0.76424836 0.75754774 0.76898762]
+- Mean MSE score across all folds is: 0.7644140249353026
+- Standard deviation of MSE scores is: 0.008431741545314954
+
+**Features Added**: Add all of the nutritions: not only `calories` and `sugar`, but also `total_fat`, `sodium`, `protein`, `saturated_fat`, `carbohydrates` and one of the categorical data `n_steps` (step >10 considered as 1, step <10 as 0) for the final model.
+
+**Why?** Because
+
+**Modeling Algorithm**: The chosen algorithm for the final model is the **Gradient Boosting Regressor**, which showed a good predvtive ability on our data based on the baseline model.
 
 
+**Hyperparameters**
+- `n_estimators`: 200, indicating that the ensemble should consist of 200 trees. 
+- `learning_rate`: 0.01, which means each tree added to the ensemble helps to improve the model's performance incrementally.
+- `max_depth`: 3. The maximum depth of 3 for each tree suggests that only simple decision trees are needed, which helps to keep the model simple and prevent overfitting. 
 
-
-
-
+**Final Model’s performance**
+- The mean MSE across all folds was 0.7644140249353026, which performs almost the same as our best performed baseline model.
+- The standard deviation of MSE is 0.008431741545314954, indicating relatively low variability.
 
 
 
