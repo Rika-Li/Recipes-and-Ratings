@@ -282,6 +282,6 @@ However, there's still room for improvement.
 <iframe
   src="assets/Preparation Times.html"
   width="700"
-  height="375"
+  height="600"
   frameborder="0"
 ></iframe>
